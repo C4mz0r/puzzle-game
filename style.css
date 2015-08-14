@@ -1,0 +1,190 @@
+img {
+	width: 800px;
+	height: 600px;
+}
+
+.row {
+	clear: both;
+}
+
+.div1 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: 0px 0px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div2 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -200px 0px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div3 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -400px 0px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div4 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -600px 0px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div5 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: 0px -150px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div6 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -200px -150px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div7 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -400px -150px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div8 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -600px -150px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div9 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: 0px -300px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div10 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -200px -300px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div11 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -400px -300px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div12 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -600px -300px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div13 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: 0px -450px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div14 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -200px -450px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.div15 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: -400px -450px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+.empty {
+	background-color: blue;
+	/*background-image: url('imgs/Jaguar-sm.jpg');*/
+	/*background-position: -600px -450px;*/
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+
+
+/*
+#div3 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: 0px 0px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+#div4 {
+	background-color: blue;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	background-position: 0px 0px;
+	width: 200px;
+	height: 150px;
+	position: inline-block;
+	float:left;
+}
+*/
