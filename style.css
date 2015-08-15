@@ -7,6 +7,24 @@ img {
 	clear: both;
 }
 
+div {
+	color: yellow;
+	font-size: x-large;
+
+	text-shadow:
+   		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+	    	1px 1px 0 #000;
+    	/*border: 1px solid yellow;*/
+}
+
+#divwin {
+	position: absolute;
+	top: 100px;
+	
+}
+
 .div1 {
 	background-color: blue;
 	background-image: url('imgs/Jaguar-sm.jpg');
