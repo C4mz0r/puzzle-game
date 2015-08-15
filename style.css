@@ -7,6 +7,15 @@ img {
 	clear: both;
 }
 
+/* common settings for each block */
+.row > div {
+	width: 200px;
+	height: 150px;
+	background-image: url('imgs/Jaguar-sm.jpg');
+	position: inline-block;
+	float:left;
+}
+
 div {
 	color: yellow;
 	font-size: x-large;
@@ -16,7 +25,6 @@ div {
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 	    	1px 1px 0 #000;
-    	/*border: 1px solid yellow;*/
 }
 
 #divwin {
@@ -26,183 +34,69 @@ div {
 }
 
 .div1 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
 	background-position: 0px 0px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div2 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div2 {	
 	background-position: -200px 0px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div3 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div3 {	
 	background-position: -400px 0px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
 .div4 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
 	background-position: -600px 0px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div5 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div5 {	
 	background-position: 0px -150px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div6 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div6 {	
 	background-position: -200px -150px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div7 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div7 {	
 	background-position: -400px -150px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div8 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div8 {	
 	background-position: -600px -150px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div9 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div9 {	
 	background-position: 0px -300px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div10 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div10 {	
 	background-position: -200px -300px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div11 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div11 {	
 	background-position: -400px -300px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div12 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div12 {	
 	background-position: -600px -300px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div13 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div13 {	
 	background-position: 0px -450px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div14 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div14 {	
 	background-position: -200px -450px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.div15 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
+.div15 {	
 	background-position: -400px -450px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
 }
 
-.empty {
+/* needed to use a more specific selector instead of .empty, otherwise the image from .row > div was taking precedence */
+.row > .empty {
 	background-color: blue;
-	/*background-image: url('imgs/Jaguar-sm.jpg');*/
-	/*background-position: -600px -450px;*/
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
+	background-image: url('');
+	
 }
 
-
-/*
-#div3 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
-	background-position: 0px 0px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
-}
-#div4 {
-	background-color: blue;
-	background-image: url('imgs/Jaguar-sm.jpg');
-	background-position: 0px 0px;
-	width: 200px;
-	height: 150px;
-	position: inline-block;
-	float:left;
-}
-*/
