@@ -33,6 +33,10 @@ div {
 	
 }
 
+#hidden {
+	display: none;
+}
+
 .div1 {
 	background-position: 0px 0px;
 }

@@ -37,6 +37,14 @@ $(document).ready (
 							var adjacentClass = $("#div"+adjacents[0]).attr('class');
 							$("#div"+adjacents[1]).addClass( adjacentClass ).removeClass("empty");
 							$("#div"+adjacents[0]).addClass("empty").removeClass("div1 div2 div3 div4 div5 div6 div7 div8 div9 div10 div11 div12 div13 div14 div15")
+
+							// when using the image upload version of the game, we also need to swap out the styles when the element moves
+							// (there are no such styles on the non-image upload version of the game)
+							var firstStyle = $("#div"+adjacents[0]).attr('style');
+							var secondStyle = $("#div"+adjacents[1]).attr('style');
+							$("#div"+adjacents[0]).attr('style', secondStyle);
+							$("#div"+adjacents[1]).attr('style', firstStyle);
+							
 							updateText();
 							showWinningScreen (checkIfUserWon());
 						}
